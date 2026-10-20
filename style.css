@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: sans-serif;
+    color: var(--tg-theme-text-color);
+    background: var(--tg-theme-bg-color);
+}
+.container {
+    max-width: 390px;
+    margin: 0 auto;
+}
+.inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 20px;
+}
+.btn {
+    width: 100%;
+    padding: 20px 10px;
+    border: none;
+    background: #2cab37;
+    border-radius: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
